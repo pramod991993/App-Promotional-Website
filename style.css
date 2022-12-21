@@ -563,7 +563,7 @@ header {
 	margin: auto;
 	border: 2px solid #ccc;
 	border-radius: 100%;
-	overflow: hidden;
+	
 	margin-bottom: 50px;
 }
 .carousel-inner .content {

@@ -9,7 +9,14 @@ jQuery(window).bind('scroll', function (){
 
 jQuery(document).ready(function($) {
   "use strict";
-  $('#main-nav .nav').onePageNav({
+  $('#main-nav').onePageNav({
+    currentClass: 'active',
+    scrollOffset: 69,
+  });  
+});
+jQuery(document).ready(function() {
+  "use strict";
+  $('#ulnav').onePageNav({
     currentClass: 'active',
     scrollOffset: 69,
   });  
